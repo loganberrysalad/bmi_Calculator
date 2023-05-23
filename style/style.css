@@ -1,0 +1,49 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1d186;
+}
+
+.container{
+    padding: 50px;
+    margin: 1px;
+    background: linear-gradient(#3b684c,rgba(167, 114, 15, 0.383)) ;
+    width: fit-content;
+    font-size: 30px;
+    height: fit-content;
+    align-content: center;
+    border-radius: 50px;
+}
+#height, #weight{
+    height:23px;
+    background-color: aquamarine;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px rgb(160, 184, 54);
+    font-size:19px;
+}
+
+    
+button{
+    margin-top: 20px;
+    width: fit-content;
+    height: 50px;
+    font-size: 20px;
+    background: #000000;
+    box-shadow: 4px 4px 4px rgb(160, 184, 54);
+    border: 2px solid black;
+    border-radius: 17px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(255, 252, 252);
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    width: fit-content;
+    font-family:'Times New Roman';
+    box-shadow: 8px 8px 8px 4px rgb(0, 0, 0);
+} 
