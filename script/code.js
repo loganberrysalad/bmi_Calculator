@@ -7,15 +7,11 @@ let calculate = document.getElementById("calculate");
 restart.addEventListener("click",function(){
   height.value=""
   weight.value=""
-  
 })
 
 calculate.addEventListener("click", function() {
-  let bmiInput = weight.value / Math.round(height.value * height.value) * 10000;
-  result.innerText = bmiInput.toFixed(2);
-
-
-
+        let bmiInput = weight.value / Math.round(height.value * height.value) * 10000;
+        result.innerText = bmiInput.toFixed(2);
 
   if(bmiInput <=18.5) {
     answer.innerText = "YOU ARE UNDERWEIGHT 😢"
